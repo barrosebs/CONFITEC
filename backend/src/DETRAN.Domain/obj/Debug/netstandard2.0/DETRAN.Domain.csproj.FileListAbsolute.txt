@@ -7,3 +7,12 @@ C:\work\CONFITEC\backend\src\DETRAN.Domain\obj\Debug\netstandard2.0\DETRAN.Domai
 C:\work\CONFITEC\backend\src\DETRAN.Domain\obj\Debug\netstandard2.0\DETRAN.Domain.csproj.CoreCompileInputs.cache
 C:\work\CONFITEC\backend\src\DETRAN.Domain\obj\Debug\netstandard2.0\DETRAN.Domain.dll
 C:\work\CONFITEC\backend\src\DETRAN.Domain\obj\Debug\netstandard2.0\DETRAN.Domain.pdb
+C:\Dev\Testes\CONFITEC\backend\src\DETRAN.Domain\bin\Debug\netstandard2.0\DETRAN.Domain.deps.json
+C:\Dev\Testes\CONFITEC\backend\src\DETRAN.Domain\bin\Debug\netstandard2.0\DETRAN.Domain.dll
+C:\Dev\Testes\CONFITEC\backend\src\DETRAN.Domain\bin\Debug\netstandard2.0\DETRAN.Domain.pdb
+C:\Dev\Testes\CONFITEC\backend\src\DETRAN.Domain\obj\Debug\netstandard2.0\DETRAN.Domain.csprojAssemblyReference.cache
+C:\Dev\Testes\CONFITEC\backend\src\DETRAN.Domain\obj\Debug\netstandard2.0\DETRAN.Domain.AssemblyInfoInputs.cache
+C:\Dev\Testes\CONFITEC\backend\src\DETRAN.Domain\obj\Debug\netstandard2.0\DETRAN.Domain.AssemblyInfo.cs
+C:\Dev\Testes\CONFITEC\backend\src\DETRAN.Domain\obj\Debug\netstandard2.0\DETRAN.Domain.csproj.CoreCompileInputs.cache
+C:\Dev\Testes\CONFITEC\backend\src\DETRAN.Domain\obj\Debug\netstandard2.0\DETRAN.Domain.dll
+C:\Dev\Testes\CONFITEC\backend\src\DETRAN.Domain\obj\Debug\netstandard2.0\DETRAN.Domain.pdb

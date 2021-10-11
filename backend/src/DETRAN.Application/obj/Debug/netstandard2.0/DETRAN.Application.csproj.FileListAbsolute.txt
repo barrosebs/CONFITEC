@@ -12,3 +12,17 @@ C:\work\CONFITEC\backend\src\DETRAN.Application\bin\Debug\netstandard2.0\DETRAN.
 C:\work\CONFITEC\backend\src\DETRAN.Application\bin\Debug\netstandard2.0\DETRAN.Domain.pdb
 C:\work\CONFITEC\backend\src\DETRAN.Application\bin\Debug\netstandard2.0\DETRAN.Persistence.pdb
 C:\work\CONFITEC\backend\src\DETRAN.Application\obj\Debug\netstandard2.0\DETRAN.Application.csproj.CopyComplete
+C:\Dev\Testes\CONFITEC\backend\src\DETRAN.Application\bin\Debug\netstandard2.0\DETRAN.Application.deps.json
+C:\Dev\Testes\CONFITEC\backend\src\DETRAN.Application\bin\Debug\netstandard2.0\DETRAN.Application.dll
+C:\Dev\Testes\CONFITEC\backend\src\DETRAN.Application\bin\Debug\netstandard2.0\DETRAN.Application.pdb
+C:\Dev\Testes\CONFITEC\backend\src\DETRAN.Application\bin\Debug\netstandard2.0\DETRAN.Domain.dll
+C:\Dev\Testes\CONFITEC\backend\src\DETRAN.Application\bin\Debug\netstandard2.0\DETRAN.Persistence.dll
+C:\Dev\Testes\CONFITEC\backend\src\DETRAN.Application\bin\Debug\netstandard2.0\DETRAN.Domain.pdb
+C:\Dev\Testes\CONFITEC\backend\src\DETRAN.Application\bin\Debug\netstandard2.0\DETRAN.Persistence.pdb
+C:\Dev\Testes\CONFITEC\backend\src\DETRAN.Application\obj\Debug\netstandard2.0\DETRAN.Application.csprojAssemblyReference.cache
+C:\Dev\Testes\CONFITEC\backend\src\DETRAN.Application\obj\Debug\netstandard2.0\DETRAN.Application.AssemblyInfoInputs.cache
+C:\Dev\Testes\CONFITEC\backend\src\DETRAN.Application\obj\Debug\netstandard2.0\DETRAN.Application.AssemblyInfo.cs
+C:\Dev\Testes\CONFITEC\backend\src\DETRAN.Application\obj\Debug\netstandard2.0\DETRAN.Application.csproj.CoreCompileInputs.cache
+C:\Dev\Testes\CONFITEC\backend\src\DETRAN.Application\obj\Debug\netstandard2.0\DETRAN.Application.csproj.CopyComplete
+C:\Dev\Testes\CONFITEC\backend\src\DETRAN.Application\obj\Debug\netstandard2.0\DETRAN.Application.dll
+C:\Dev\Testes\CONFITEC\backend\src\DETRAN.Application\obj\Debug\netstandard2.0\DETRAN.Application.pdb
