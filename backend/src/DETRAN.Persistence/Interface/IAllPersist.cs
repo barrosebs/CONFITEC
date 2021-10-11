@@ -1,5 +1,4 @@
 using System.Threading.Tasks;
-using DETRAN.Domain.Entities;
 
 namespace DETRAN.Persistence.Interface
 {
