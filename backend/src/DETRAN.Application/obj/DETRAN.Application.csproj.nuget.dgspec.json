@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Application\\DETRAN.Application.csproj": {}
+    "C:\\Dev\\Testes\\CONFITEC\\backend\\src\\DETRAN.Application\\DETRAN.Application.csproj": {}
   },
   "projects": {
-    "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Application\\DETRAN.Application.csproj": {
+    "C:\\Dev\\Testes\\CONFITEC\\backend\\src\\DETRAN.Application\\DETRAN.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Application\\DETRAN.Application.csproj",
+        "projectUniqueName": "C:\\Dev\\Testes\\CONFITEC\\backend\\src\\DETRAN.Application\\DETRAN.Application.csproj",
         "projectName": "DETRAN.Application",
-        "projectPath": "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Application\\DETRAN.Application.csproj",
-        "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-        "outputPath": "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Application\\obj\\",
+        "projectPath": "C:\\Dev\\Testes\\CONFITEC\\backend\\src\\DETRAN.Application\\DETRAN.Application.csproj",
+        "packagesPath": "C:\\Users\\eduardo.santos\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\Testes\\CONFITEC\\backend\\src\\DETRAN.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eduardo.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -31,11 +32,11 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Domain\\DETRAN.Domain.csproj": {
-                "projectPath": "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Domain\\DETRAN.Domain.csproj"
+              "C:\\Dev\\Testes\\CONFITEC\\backend\\src\\DETRAN.Domain\\DETRAN.Domain.csproj": {
+                "projectPath": "C:\\Dev\\Testes\\CONFITEC\\backend\\src\\DETRAN.Domain\\DETRAN.Domain.csproj"
               },
-              "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Persistence\\DETRAN.Persistence.csproj": {
-                "projectPath": "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Persistence\\DETRAN.Persistence.csproj"
+              "C:\\Dev\\Testes\\CONFITEC\\backend\\src\\DETRAN.Persistence\\DETRAN.Persistence.csproj": {
+                "projectPath": "C:\\Dev\\Testes\\CONFITEC\\backend\\src\\DETRAN.Persistence\\DETRAN.Persistence.csproj"
               }
             }
           }
@@ -66,24 +67,25 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Domain\\DETRAN.Domain.csproj": {
+    "C:\\Dev\\Testes\\CONFITEC\\backend\\src\\DETRAN.Domain\\DETRAN.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Domain\\DETRAN.Domain.csproj",
+        "projectUniqueName": "C:\\Dev\\Testes\\CONFITEC\\backend\\src\\DETRAN.Domain\\DETRAN.Domain.csproj",
         "projectName": "DETRAN.Domain",
-        "projectPath": "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Domain\\DETRAN.Domain.csproj",
-        "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-        "outputPath": "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Domain\\obj\\",
+        "projectPath": "C:\\Dev\\Testes\\CONFITEC\\backend\\src\\DETRAN.Domain\\DETRAN.Domain.csproj",
+        "packagesPath": "C:\\Users\\eduardo.santos\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\Testes\\CONFITEC\\backend\\src\\DETRAN.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eduardo.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -129,24 +131,25 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Persistence\\DETRAN.Persistence.csproj": {
+    "C:\\Dev\\Testes\\CONFITEC\\backend\\src\\DETRAN.Persistence\\DETRAN.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Persistence\\DETRAN.Persistence.csproj",
+        "projectUniqueName": "C:\\Dev\\Testes\\CONFITEC\\backend\\src\\DETRAN.Persistence\\DETRAN.Persistence.csproj",
         "projectName": "DETRAN.Persistence",
-        "projectPath": "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Persistence\\DETRAN.Persistence.csproj",
-        "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-        "outputPath": "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Persistence\\obj\\",
+        "projectPath": "C:\\Dev\\Testes\\CONFITEC\\backend\\src\\DETRAN.Persistence\\DETRAN.Persistence.csproj",
+        "packagesPath": "C:\\Users\\eduardo.santos\\.nuget\\packages\\",
+        "outputPath": "C:\\Dev\\Testes\\CONFITEC\\backend\\src\\DETRAN.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eduardo.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -160,8 +163,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Domain\\DETRAN.Domain.csproj": {
-                "projectPath": "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Domain\\DETRAN.Domain.csproj"
+              "C:\\Dev\\Testes\\CONFITEC\\backend\\src\\DETRAN.Domain\\DETRAN.Domain.csproj": {
+                "projectPath": "C:\\Dev\\Testes\\CONFITEC\\backend\\src\\DETRAN.Domain\\DETRAN.Domain.csproj"
               }
             }
           }
@@ -200,7 +203,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
         }
       }
     }

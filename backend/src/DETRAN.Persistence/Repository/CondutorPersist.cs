@@ -7,38 +7,14 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DETRAN.Persistence.Repository
 {
-    public class DetranPersistence : IDetranPersistence
+    public class CondutorPersist : ICondutorPersist
     {
         private readonly DetranContext _context;
-        public DetranPersistence(DetranContext context)
+        public CondutorPersist(DetranContext context)
         {
             _context = context;
         }
-        public void Add<T>(T entity) where T : class
-        {
-            _context.Add(entity);
-        }
-
-        public void Delete<T>(T entity) where T : class
-        {
-            _context.Remove(entity);
-        }
-
-        public void DeleteRange<T>(T[] entityArray) where T : class
-        {
-            _context.RemoveRange(entityArray);
-        }
-        public void Update<T>(T entity) where T : class
-        {
-            _context.Update(entity);
-        }
-        public async Task<bool> SaveChangesAsync()
-        {
-            return (await _context.SaveChangesAsync()) > 0;
-        }
-
-
-        public async Task<Condutor[]> GetAllCondutoresByAsync(string condutor, bool includeVeiculo = false)
+        public async Task<Condutor[]> GetAllCondutoresByVeiculoAsync(string condutor, bool includeVeiculo = false)
         {
             IQueryable<Condutor> query = _context.Condutores;
             
@@ -63,18 +39,7 @@ namespace DETRAN.Persistence.Repository
             query = query.OrderBy(e => e.CondutorId);
             return await query.ToArrayAsync();
         }
-
-        public Task<Veiculo[]> GetAllVeiculoesCondutorAsync(bool includeCondutor)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public Task<Veiculo[]> GetAllVeiculosByCondutorAsync(string Veiculo, bool includeCondutor = false)
-        {
-            throw new System.NotImplementedException();
-        }
-
-        public async Task<Condutor> GetCondutorByIdAsync(int CondutorId, bool includeVeiculo = false)
+        public async Task<Condutor> GetCondutorByIdAsync(int condutorId, bool includeVeiculo = false)
         {
             IQueryable<Condutor> query = _context.Condutores;
 
@@ -84,14 +49,8 @@ namespace DETRAN.Persistence.Repository
                 .ThenInclude(p => p.Veiculo);
             }
             query = query.OrderBy(e => e.CondutorId)
-            .Where(e => e.CondutorId == CondutorId);
+            .Where(e => e.CondutorId == condutorId);
             return await query.FirstOrDefaultAsync();
         }
-
-        public Task<Veiculo> GetVeiculoByIdAsync(int VeiculoId, bool includeCondutor)
-        {
-            throw new System.NotImplementedException();
-        }
-
     }
 }

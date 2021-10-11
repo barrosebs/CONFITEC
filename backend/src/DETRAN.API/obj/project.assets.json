@@ -1239,23 +1239,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Eduardo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\eduardo.santos\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\work\\CONFITEC\\backend\\src\\DETRAN.API\\DETRAN.API.csproj",
+      "projectUniqueName": "C:\\Dev\\Testes\\CONFITEC\\backend\\src\\DETRAN.API\\DETRAN.API.csproj",
       "projectName": "DETRAN.API",
-      "projectPath": "C:\\work\\CONFITEC\\backend\\src\\DETRAN.API\\DETRAN.API.csproj",
-      "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-      "outputPath": "C:\\work\\CONFITEC\\backend\\src\\DETRAN.API\\obj\\",
+      "projectPath": "C:\\Dev\\Testes\\CONFITEC\\backend\\src\\DETRAN.API\\DETRAN.API.csproj",
+      "packagesPath": "C:\\Users\\eduardo.santos\\.nuget\\packages\\",
+      "outputPath": "C:\\Dev\\Testes\\CONFITEC\\backend\\src\\DETRAN.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\eduardo.santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1269,8 +1271,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Application\\DETRAN.Application.csproj": {
-              "projectPath": "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Application\\DETRAN.Application.csproj"
+            "C:\\Dev\\Testes\\CONFITEC\\backend\\src\\DETRAN.Application\\DETRAN.Application.csproj": {
+              "projectPath": "C:\\Dev\\Testes\\CONFITEC\\backend\\src\\DETRAN.Application\\DETRAN.Application.csproj"
             }
           }
         }
@@ -1315,7 +1317,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.407\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
       }
     }
   }
