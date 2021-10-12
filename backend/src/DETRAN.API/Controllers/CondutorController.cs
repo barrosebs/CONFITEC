@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 using DETRAN.Application.Services.Interface;
 using DETRAN.Domain.Entities;
@@ -78,6 +77,11 @@ namespace DETRAN.API.Controllers
             }
         }
 
+        /// <summary>
+        /// Deletar Condutor passando o id
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {

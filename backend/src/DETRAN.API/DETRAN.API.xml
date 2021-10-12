@@ -4,5 +4,12 @@
         <name>DETRAN.API</name>
     </assembly>
     <members>
+        <member name="M:DETRAN.API.Controllers.CondutorController.Delete(System.Int32)">
+            <summary>
+            Deletar Condutor passando o id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

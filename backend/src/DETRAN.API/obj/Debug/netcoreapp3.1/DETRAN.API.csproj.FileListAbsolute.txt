@@ -145,7 +145,6 @@ C:\Dev\Testes\CONFITEC\backend\src\DETRAN.API\obj\Debug\netcoreapp3.1\staticweba
 C:\Dev\Testes\CONFITEC\backend\src\DETRAN.API\obj\Debug\netcoreapp3.1\DETRAN.API.dll
 C:\Dev\Testes\CONFITEC\backend\src\DETRAN.API\obj\Debug\netcoreapp3.1\DETRAN.API.pdb
 C:\Dev\Testes\CONFITEC\backend\src\DETRAN.API\obj\Debug\netcoreapp3.1\DETRAN.API.genruntimeconfig.cache
-C:\work\CONFITEC\backend\src\DETRAN.API\obj\Debug\netcoreapp3.1\DETRAN.API.csproj.AssemblyReference.cache
 C:\work\CONFITEC\backend\src\DETRAN.API\obj\Debug\netcoreapp3.1\DETRAN.API.MvcApplicationPartsAssemblyInfo.cs
 C:\work\CONFITEC\backend\src\DETRAN.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 C:\work\CONFITEC\backend\src\DETRAN.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
@@ -156,3 +155,4 @@ C:\work\CONFITEC\backend\src\DETRAN.API\bin\Debug\netcoreapp3.1\System.Net.Http.
 C:\work\CONFITEC\backend\src\DETRAN.API\bin\Debug\netcoreapp3.1\System.Web.Http.dll
 C:\work\CONFITEC\backend\src\DETRAN.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\work\CONFITEC\backend\src\DETRAN.API\bin\Debug\netcoreapp3.1\Swashbuckle.Core.dll
+C:\work\CONFITEC\backend\src\DETRAN.API\obj\Debug\netcoreapp3.1\DETRAN.API.csprojAssemblyReference.cache
