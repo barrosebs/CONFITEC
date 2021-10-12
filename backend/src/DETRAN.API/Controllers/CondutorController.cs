@@ -49,7 +49,50 @@ namespace DETRAN.API.Controllers
                 return this.StatusCode(StatusCodes.Status500InternalServerError, $"Error ao tentar recuperar condutor. Erro {ex.Message}");
             }
         }
+        [HttpPost]
+        public async Task<IActionResult> Post(Condutor model)
+        {
+            try
+            {
+                 var condutor = await _condutorService.AddCondutor(model);
+                if (condutor == null) return BadRequest("Erro ao tentar adicionar Condutor");
+                return Ok(condutor);
+            }
+            catch (Exception ex)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, $"Error ao tentar adicionar condutor. Erro {ex.Message}");
+            }
+        }
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Put(int id, Condutor model)
+        {
+            try
+            {
+                 var condutor = await _condutorService.UpdateCondutor(id, model);
+                if (condutor == null) return BadRequest("Erro ao tentar alterar Condutor");
+                return Ok(condutor);
+            }
+            catch (Exception ex)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, $"Error ao tentar alterar condutor. Erro {ex.Message}");
+            }
+        }
 
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            try
+            {
+                if(await _condutorService.DeleteCondutor(id))
+                    return Ok("Deletado com sucesso!");
+                else 
+                    return BadRequest("Condutor não deletado!");
+            }
+            catch (Exception ex)
+            {
+                return this.StatusCode(StatusCodes.Status500InternalServerError, $"Error ao tentar deletar condutor. Erro {ex.Message}");
+            }
+        }
 
     }
 }

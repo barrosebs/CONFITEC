@@ -1,4 +1,8 @@
+using DETRAN.Application.Services;
+using DETRAN.Application.Services.Interface;
 using DETRAN.Persistence.Data.Context;
+using DETRAN.Persistence.Interface;
+using DETRAN.Persistence.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -24,6 +28,10 @@ namespace DETRAN.API
                 context => context.UseSqlite(Configuration.GetConnectionString("DefaultConnection"))
             );
             services.AddControllers();
+            
+            services.AddScoped<ICondutorService, CondutorService>();
+            services.AddScoped<IAllPersist, AllPersist>();
+            services.AddScoped<ICondutorPersist, CondutorPersist>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
