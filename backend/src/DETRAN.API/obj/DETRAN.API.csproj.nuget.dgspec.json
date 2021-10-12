@@ -30,6 +30,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
               "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Application\\DETRAN.Application.csproj": {
                 "projectPath": "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Application\\DETRAN.Application.csproj"
@@ -45,6 +46,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -57,6 +59,14 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[3.1.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            },
+            "Swashbuckle.Core": {
+              "target": "Package",
+              "version": "[5.6.0, )"
             }
           },
           "imports": [
@@ -107,6 +117,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {
               "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Domain\\DETRAN.Domain.csproj": {
                 "projectPath": "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Domain\\DETRAN.Domain.csproj"
@@ -125,6 +136,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -173,6 +185,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {}
           }
         },
@@ -184,6 +197,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -236,6 +250,7 @@
         },
         "frameworks": {
           "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
             "projectReferences": {
               "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Domain\\DETRAN.Domain.csproj": {
                 "projectPath": "C:\\work\\CONFITEC\\backend\\src\\DETRAN.Domain\\DETRAN.Domain.csproj"
@@ -251,6 +266,7 @@
       },
       "frameworks": {
         "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

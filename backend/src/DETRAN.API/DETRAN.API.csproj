@@ -1,13 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
   <ItemGroup>
-    <ProjectReference Include="..\DETRAN.Application\DETRAN.Application.csproj"/>
+    <ProjectReference Include="..\DETRAN.Application\DETRAN.Application.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.1"/>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.1"/>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.1"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.2" />
+    <PackageReference Include="Swashbuckle.Core" Version="5.6.0" />
   </ItemGroup>
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\work\CONFITEC\backend\src\DETRAN.API\DETRAN.API.xml</DocumentationFile>
   </PropertyGroup>
 </Project>
