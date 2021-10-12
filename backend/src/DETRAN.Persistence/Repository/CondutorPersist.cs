@@ -23,7 +23,7 @@ namespace DETRAN.Persistence.Repository
                 .Include(c => c.CondutorVeiculos)
                 .ThenInclude(p => p.Veiculo);
             }
-            query = query.OrderBy(e => e.CondutorId).Where(c => c.Nome.ToLower().Contains(condutor.ToLower()));
+            query = query.AsNoTracking().OrderBy(e => e.CondutorId).Where(c => c.Nome.ToLower().Contains(condutor.ToLower()));
             return await query.ToArrayAsync();
         }
 
@@ -36,7 +36,7 @@ namespace DETRAN.Persistence.Repository
                 .Include(c => c.CondutorVeiculos)
                 .ThenInclude(p => p.Veiculo);
             }
-            query = query.OrderBy(e => e.CondutorId);
+            query = query.AsNoTracking().OrderBy(e => e.CondutorId);
             return await query.ToArrayAsync();
         }
         public async Task<Condutor> GetCondutorByIdAsync(int condutorId, bool includeVeiculo = false)
@@ -48,7 +48,7 @@ namespace DETRAN.Persistence.Repository
                 .Include(c => c.CondutorVeiculos)
                 .ThenInclude(p => p.Veiculo);
             }
-            query = query.OrderBy(e => e.CondutorId)
+            query = query.AsNoTracking().OrderBy(e => e.CondutorId)
             .Where(e => e.CondutorId == condutorId);
             return await query.FirstOrDefaultAsync();
         }

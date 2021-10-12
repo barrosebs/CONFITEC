@@ -6,8 +6,8 @@ namespace DETRAN.Persistence.Interface
     public interface IUsuarioPersist
     {
 
-        Task<Usuario[]> GetAllUsuarioByCondutorAsync(string marca, bool includeCondutor);
+        Task<Usuario[]> GetAllUsuarioByCondutorAsync(string marca, bool includeCondutor = false);
         Task<Usuario[]> GetAllUsuarioAsync();
-        Task<Usuario> GetUsuarioByIdAsync(int usuarioId, bool includeCondutor);
+        Task<Usuario> GetUsuarioByIdAsync(int usuarioId, bool includeCondutor = false);
     }
 }
