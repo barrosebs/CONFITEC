@@ -7,6 +7,7 @@ import { NavComponent } from './nav/nav.component';
 import { APP_BASE_HREF } from '@angular/common';
 import { CondutorComponent } from './condutor/condutor.component';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [		
@@ -17,7 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [
    // {provide: APP_BASE_HREF, useValue: 'detranapp'}

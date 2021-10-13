@@ -1,13 +1,16 @@
 <p>
   {{titlePage}}
 </p>
-<form class="form-inline">
+<div class="form-inline">
   <div class="form-group mb-2">
-    <input type="text" class="form-control mr-2" placeholder="Informe nome do condutor">
+    <label class="mr-2">Filtro:</label>
+    <input type="text" class="form-control mr-2" placeholder="Informe nome do condutor"
+      [(ngModel)]="filtroList"
+    >
     <button class="btn btn-outline-success">Buscar</button>
   </div>
-</form>
-    
+</div>
+    <h3>Filtro: {{filtroList}}</h3>
   <table class="table table-striped">
     <thead class="thead-dark">
       <tr>
@@ -22,7 +25,7 @@
       </tr>
     </thead>
     <tbody *ngIf='condutores && condutores.length'>
-      <tr *ngFor='let condutor of condutores'>
+      <tr *ngFor='let condutor of condutoresFiltrados'>
         <td>{{condutor.condutorId}}</td>
         <td>{{condutor.nome}}</td>
         <td>{{condutor.telefone}}</td>
