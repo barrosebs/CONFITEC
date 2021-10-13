@@ -1,7 +1,8 @@
 # Teste de aplicação CONFITEC
->> TECNOLOGIAS:
-    >>> .NET Core 3.1 (backEnd)
-    >>> Angular 8.1 (frontEnd)
-        >> BootStrap
-        >> Font Awesome
-    >>> SqLite (Banco de Dados)
+## TECNOLOGIAS:
+    1. .NET Core 3.1 (backEnd)
+    2. Angular 8.1 (frontEnd)
+        2.1 BootStrap
+        2.1 Font Awesome
+    3. SqLite (Banco de Dados)
+    4. Swagger
