@@ -1,0 +1,46 @@
+<p>
+  {{titlePage}}
+</p>
+<form class="form-inline">
+  <div class="form-group mb-2">
+    <input type="text" class="form-control mr-2" placeholder="Informe nome do condutor">
+    <button class="btn btn-outline-success">Buscar</button>
+  </div>
+</form>
+    
+  <table class="table table-striped">
+    <thead class="thead-dark">
+      <tr>
+        <th>#</th>
+        <th>Nome</th>
+        <th>Telefone</th>
+        <th>Email</th>
+        <th>CPF</th>
+        <th>CNH</th>
+        <th>Data Nascimento</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody *ngIf='condutores && condutores.length'>
+      <tr *ngFor='let condutor of condutores'>
+        <td>{{condutor.condutorId}}</td>
+        <td>{{condutor.nome}}</td>
+        <td>{{condutor.telefone}}</td>
+        <td>{{condutor.email}}</td>
+        <td>{{condutor.cpf}}</td>
+        <td>{{condutor.numeroCnh}}</td>
+        <td>{{condutor.dataNacimento}}</td>
+        <td>
+          <button class="btn btn-outline-success"><i class="fa fa-edit"></i></button>
+          <button class="btn btn-outline-danger"><i class="fa fa-trash"></i></button>
+        </td>
+      </tr>
+    </tbody>
+    <tfoot *ngIf="!condutores.length">
+      <tr>
+        <td colspan="8" class="text-center">
+          <h1>Nenhum condutor cadastrado!</h1>
+        </td>
+      </tr>
+    </tfoot>
+  </table>
